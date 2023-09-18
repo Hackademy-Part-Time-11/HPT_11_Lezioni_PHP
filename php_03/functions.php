@@ -22,6 +22,8 @@
 //      echo "Hello world!";
 // }
 
+// stampaHelloWorld();
+
 
 // le funzioni non sono case sensitive
 
@@ -34,11 +36,13 @@
 $a= 5;
 $b = 10;
 
-function moltiplicazione( $i , $j){
+// function moltiplicazione( $i , $j){
 
-    echo $i * $j;
+//     echo $i * $j;
 
-}
+// }
+
+// moltiplicazione($a,$b);
 
 
 //?parametri con valore di default
@@ -134,7 +138,7 @@ function funzione1(int $numeroIntero, float $float , string $stringa, bool $bool
 
 //? definizione del tipo di valore di ritorno atteso
 
-function esempio(){
+function esempio():int{
     return 5;
 }
 
